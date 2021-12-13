@@ -1,8 +1,0 @@
-{
-    "token": "ODY3MzA3MTAyOTY2OTA2ODkw.YPfMrw.gfzInrM2Gr852IqHpOE4ef71dC8",
-    "clientID": "z0aDEw5tb3qX5XmMdscZGA",
-    "clientSecret": "DVMCHNYQQpRwqAqfp3tr5K-Ylyf8sg",
-    "refreshToken": "1055969139242-yELEfcbU5hXaQbpeQgb6omIP2L8FyQ",
-    "accessToken": "1055969139242-98S6Nhw9ot75cMs8Pv3LXd5QK7r65Q",
-    "mongo": "mongodb+srv://James:JAW2006@cluster0.2dkti.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-}
