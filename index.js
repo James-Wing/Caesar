@@ -102,50 +102,6 @@ client.on('messageCreate', async (message) => {
             await newData.save();
         } else { return; };
     } else { return; };
-})
-/*client.on('messageCreate', async message => {
-    const { VoiceChannel } = require('discord.js');
-    const { joinVoiceChannel, createAudioPlayer, createAudioResource, entersState, StreamType, AudioPlayerStatus, VoiceConnectionStatus } = require('@discordjs/voice');
-
-    const player = createAudioPlayer();
-
-    function playSong() {
-        
-    }
-})*/
-
-/*client.on('message', async (message) => {
-    if(!message.channel.id == '866065878738796554' || message.channel.id !== '866065878738796554' || !message.channel.id === '866065878738796554') return;
-    if(message.attachments.array()[0] === undefined || message.attachments.array()[0] == undefined) { return } else {
-
-        async function postImageToReddit(URL) {
-            if(message.content) {
-                await Reddit.getSubreddit('romeposting').submitLink({
-                    title: message.content,
-                    url: URL,
-                }).catch(e => console.log(e));
-            } else {
-                await Reddit.getSubreddit('romeposting').submitLink({
-                    title: 'Another fine rome post!',
-                    url: URL,
-                }).catch(e => console.log(e))
-            }
-        }
-
-        await setTimeout(postImageToReddit, 86400000, message.attachments.array()[0].url);
-    }
-});*/
-
-/*client.on('message', async (message) => {
-    if(message.content.length > 300) return;
-    if(message.attachments.array()[0] === undefined || message.attachments.array()[0] == undefined) return;
-    if(message.channel.id !== '780632317960912913') return;
-    let newPost = await new redditPost({
-        Title: message.content,
-        Link: message.attachments.array()[0].url
-    });
-    await newPost.save();
-    await console.log(newPost);
-})*/
+});
 
 client.login(config.token);
